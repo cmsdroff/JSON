@@ -1,0 +1,16 @@
+{
+	"@context": {
+    	"@vocab": "http://container.bic-boxtech.com"
+    },
+    "container":
+      {
+      "container_number": {
+         "description": "Unique identification reference of the container, according to ISO standard 6346",
+         "type": "text"
+      },
+      "tare_kg": {
+         "description": "Tare weigh in kilograms (KG) of the container",
+         "type": "float"
+      },
+   }
+}
